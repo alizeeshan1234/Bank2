@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bankist</title>
+    <link rel="stylesheet" href="bankist.css">
+</head>
+
+<body>
+    <header>Log in</header>
+    <input id="user" type="text" placeholder="User">
+    <input id="pin" type="password" , placeholder="Pin" , maxlength="4">
+    <button id="log">→</button>
+    <div id="show">
+        <h1 id="balance">$0000</h1>
+        <h1 id="current_balance">Current Balance</h1>
+        <h3 id="date"></h3>
+    </div>
+    <div id="show_all">
+        <div id="transfer">
+            <h1 id="transfer_amt">Transfer To : </h1>
+            <input id="transfer_to" type="text" placeholder="Transfer To">
+            <input id="amount" type="number" placeholder="Amount">
+            <button id="transfer_amount">→</button>
+        </div>
+        <div id="loans">
+            <h1 id="loan_amt">Get Loan : </h1>
+            <input id="get_loan" type="number" placeholder="Amount">
+            <button id="loan">→</button>
+        </div>
+        <div id="close">
+            <h1 id="close_acc">Close Account : </h1>
+            <input id="name" type="text" placeholder="Conform Name">
+            <input id="conform_pin" type="password" placeholder="Conform Pin" maxlength="4">
+            <button id="close_account">→</button>
+        </div>
+    </div>
+    <div id="transaction_history"></div>
+    <script src="bankist.js" charset="UTF-8"></script>
+</body>
+
+</html>

@@ -1,0 +1,145 @@
+body {
+    background-color: whitesmoke;
+}
+
+header {
+    font-size: 40px;
+    position: absolute;
+    top: 1%;
+    left: 2%;
+    font-family: didot;
+}
+
+#user {
+    position: absolute;
+    right: 19%;
+    top: 3%;
+}
+
+#pin {
+    position: absolute;
+    right: 6%;
+    top: 3%;
+}
+
+#log {
+    position: absolute;
+    right: 2%;
+    top: 3%;
+}
+
+.inp {
+    height: 20px;
+    border: 2px solid black;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    transition: 0.4s ease;
+    background-color: transparent;
+}
+
+#balance {
+    position: absolute;
+    top: 15%;
+    right: 25%;
+    font-family: didot;
+}
+
+#current_balance {
+    font-family: didot;
+    position: absolute;
+    top: 15%;
+    left: 10%;
+}
+
+
+#date {
+    position: absolute;
+    top: 22%;
+    left: 10%;
+    font-family: didot;
+}
+
+#show {
+    opacity: 0%;
+}
+
+#transfer {
+    background-image: linear-gradient(to right, orange, rgb(247, 180, 56));
+    border-radius: 10px;
+    padding: 20px;
+    position: absolute;
+    top: 30%;
+    left: 60%;
+    opacity: 0%;
+}
+
+#transfer_to {
+    background-color: transparent;
+}
+
+#transfer_to::placeholder {
+    color: white;
+}
+
+#amount {
+    background-color: transparent;
+}
+
+#amount::placeholder {
+    color: white;
+}
+
+#transfer_amt {
+    font-family: didot;
+}
+
+#loans {
+    background-image: linear-gradient(to right, rgb(2, 212, 2), rgb(86, 191, 86));
+    position: absolute;
+    width: 325px;
+    top: 53%;
+    left: 60%;
+    opacity: 0%;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#loan_amt {
+    font-family: didot;
+}
+
+#get_loan::placeholder {
+    color: white;
+}
+
+#close {
+    position: absolute;
+    top: 76%;
+    left: 60%;
+    opacity: 0%;
+    background-image: linear-gradient(to right, red, rgb(247, 73, 73));
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#close_acc {
+    font-family: didot;
+}
+
+#get_loan {
+    background-color: transparent;
+}
+
+#name::placeholder {
+    color: white;
+}
+
+#conform_pin::placeholder {
+    color: white;
+}
+
+#transaction_history {
+    position: absolute;
+    top: 30%;
+}
